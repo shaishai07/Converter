@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium:400,800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#background {
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #7A3E48, #7A3E48, #E18942);
+	background-size: 400% 400%;
+	position: relative;
+}
+
+#container {
+	width: 400px;
+	height: 300px;
+	background: linear-gradient(-45deg, #005073, #107dac, #189ad3);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.75);
+	border-radius: 2%;
+}
+
+textarea {
+	padding: 12px 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+input {
+	font-weight: bold;
+	padding: 15px 5px;
+	position: relative;
+	bottom: 24px;
+	left: 5px;
+	cursor: pointer;
+	font-family: 'Oxanium', cursive;
+}
+
+#txt {
+	color: white;
+	position: relative;
+	bottom: 22px;
+	left: 2px;
+}
+
+#txt1 {
+	color: white;
+	position: relative;
+	bottom: 22px;
+	left: 2px;
+}
+
+#txt2 {
+	color: white;
+	position: relative;
+	bottom: 22px;
+	left: 2px;
+}
+
+#txt3 {
+	color: white;
+	position: relative;
+	bottom: 22px;
+	left: 2px;
+}
+
+#txt4 {
+	color: white;
+	font-weight: bold;
+	font-size: 36px;
+	position: relative;
+	top: 80px;
+	font-family: 'Oxanium', cursive;
+}
